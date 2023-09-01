@@ -4,6 +4,11 @@ public class Hello {
 
 	String message;
 
+
+	public String say() {
+		return message;
+	}
+
 	public Hello(String message) {
 		this.message = message;
 	}
@@ -14,6 +19,7 @@ public class Hello {
 
 	public void say() {
 		System.out.println(message);
+
 	}
 	
 }
